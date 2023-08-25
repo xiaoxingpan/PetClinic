@@ -1,0 +1,220 @@
+
+
+
+
+
+
+.paw-holder{
+    width: 100%;
+}
+.paw-icon{
+    width: 100%;
+    max-width: 120px;
+}
+
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFFFF3;
+    max-width: 1800px;
+}
+
+.big-main-img-holder {
+    width: 100%;
+    max-width: 1000px;
+    margin:auto
+}
+
+.big-main-img-row {
+    padding-left: 0px;
+}
+
+.big-main-img {
+    width: 100%;
+    height: auto;
+    background-color: pink;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid 1px #99DBFF;    
+}
+
+.services-text, .every-animal-header, .newprod-header {
+    font-size: 3vw;
+    width: 100%;
+}
+
+
+.divpanel{
+background-color:#B6E5FF;
+border-radius:8px;
+border-style:none
+}
+.divpanel-border-top{
+background-color:#B6E5FF;
+border-top-left-radius:8px;
+border-top-right-radius:8px;
+border-style:none
+}
+.divpanel-border-bot{
+background-color:#FFE8C5;
+border-bottom-left-radius:8px;
+border-bottom-right-radius:8px;
+border-style:none
+}
+
+
+/* ********************* CAROUSEL 1 *************************/
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+@media (max-width: 767px) {
+
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: flex;
+        width: 50%;
+
+    }
+    .carousel-inner .carousel-item > div:nth-child(2) {
+        display: flex;
+        width: 50%;
+
+    }
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(50%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-50%);
+    }
+ 
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+/*********** END CAROUSEL 1 *************/
+
+.card {
+    border: #99DBFF 2px solid;
+    border-radius: 20px;
+    overflow: auto;
+    background-color: #B6E5FF;
+    height: 100%;
+    padding: 1em;
+}
+.card:hover {
+    width: 110%;
+    margin-left: -5%;
+    margin-right: -5%;
+    height: 100%;
+    
+}
+.card-holder:hover {
+    transition: all .4s ease;
+}
+.card-img-holder{
+    border: #99DBFF 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 0 1em 0;
+    width: auto;
+    height: 13vw;
+    object-fit: cover;
+}
+
+.card-img{
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+.product-name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    max-height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333333;
+    width: 100%;
+}
+.animal-name{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    font-size: 3vw;
+    max-height: 3.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333333;
+    width: 100%;
+}
+.product-price{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: #363636;
+}
+.card-holder{
+    min-height: fit-content;
+
+}
+
+.services-button{
+    background-color: #B6E5FF;
+    border-radius: 50px;
+    width: 20vw;
+    text-align: center;
+    
+    justify-content: center;
+    border: 2px #99DBFF solid;
+    padding: 13px;
+    width: fit-content;
+    margin: auto;
+}
+
+.services-button-text{
+    font-size: 2.2vw;
+    text-decoration: none;
+    color: #363636;
+
+}
+
+
+@media (max-width: 767px) {
+    .services-text {
+        font-size: 3.1vw;
+        width: 100%;
+    }
+    .newprod-header, h2 {
+        font-size: 3.4vw;
+    }
+    .services-button-text{
+        font-size: 3vw;
+        text-decoration: none;
+        color: #363636;
+    
+    }
+}
+
+

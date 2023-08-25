@@ -1,0 +1,310 @@
+/*------------------------------------
+       Button customization
+------------------------------------*/
+.alert-primary {
+  color: #3d0000;
+  background-color: #ff8484;
+  border-color: #ff7070;
+}
+
+.alert-primary hr {
+  border-top-color: #ff5757;
+}
+
+.alert-primary .alert-link {
+  color: #0a0000;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #B80000;
+}
+
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+  color: #fff;
+  background-color: #840000;
+}
+
+.bg-primary {
+  background-color: #B80000 !important;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #840000 !important;
+}
+
+.border-primary {
+  border-color: #B80000 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #B80000;
+  border-color: #B80000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #940000;
+  border-color: #840000;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(184, 0, 0, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #B80000;
+  border-color: #B80000;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #840000;
+  border-color: #750000;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(184, 0, 0, 0.5);
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(184, 0, 0, 0.5);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(184, 0, 0, 0.5);
+}
+
+.list-group-item-primary {
+  color: #3d0000;
+  background-color: #ff7070;
+}
+
+.list-group-item-primary.list-group-item-action:hover,
+.list-group-item-primary.list-group-item-action:focus {
+  color: #3d0000;
+  background-color: #ff5757;
+}
+
+.list-group-item-primary.list-group-item-action.active {
+  color: #fff;
+  background-color: #3d0000;
+  border-color: #3d0000;
+}
+
+.table-primary,
+.table-primary>th,
+.table-primary>td {
+  background-color: #ff7070;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #ff5757;
+}
+
+.table-hover .table-primary:hover>td,
+.table-hover .table-primary:hover>th {
+  background-color: #ff5757;
+}
+
+.text-primary {
+  color: #B80000 !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #840000 !important;
+}
+
+
+
+/* hover to see the introduction of staffs */
+.staff-intro a {
+  position: relative;
+
+  /* Set the positioning context */
+}
+
+.staff-intro a i {
+  color: #B6E5FF;
+}
+
+.staff-intro a:hover::before {
+  content: attr(title);
+  position: absolute;
+  /* Position the tooltip */
+  top: 100%;
+  /* Position the tooltip above the link */
+  left: 100%;
+  /* Center the tooltip horizontally */
+  transform: translateX(-50%);
+  /* Center the tooltip horizontally */
+  padding: 5px;
+  /* Add some padding to the tooltip */
+  background-color: #FFFFF3;
+  /* Set the background color of the tooltip */
+  color: #000000;
+  /* Set the text color of the tooltip */
+  border-radius: 3px;
+  /* Add some border radius to the tooltip */
+  font-size: 14px;
+  /* Set the font size of the tooltip */
+  white-space: normal;
+  /* Prevent the tooltip from breaking into multiple lines */
+  opacity: 0;
+  /* Hide the tooltip by default */
+  transition: opacity 0.3s ease-in-out;
+  /* Add a transition effect to the tooltip */
+  font-family: 'Open Sans', sans-serif;
+  z-index: 3;
+}
+
+.staff-intro a:hover::before {
+  opacity: 1;
+  width: 200px;
+}
+
+/* Our team area background */
+main .staffcontent-top {
+  background-color: #B6E5FF;
+}
+
+/* staff introduction area background */
+main .staff-intro {
+  background-color: #FFE8C5;
+
+}
+
+.btn-secondary {
+  background-color: #B80000;
+  color: #FFE8C5;
+  border: 1px solid #B80000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.card p {
+  font-family: 'Gloria Hallelujah', sans-serif;
+  font-weight: bold;
+}
+
+/* @media screen and (min-width: 425px) {
+    .staff-intro h2 {
+        font-size: 1em;
+    }
+} */
+
+@media screen and (min-width: 614px) {
+  /* h1 {
+        font-size: 2em;
+    }
+
+  .header-top p {
+    font-size: 1em;
+  } */
+
+  .staffcontent-top p {
+    font-size: 1em;
+  }
+
+  .staff-intro h2 {
+    font-size: 1.5em;
+  }
+
+  .card p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  /* h1 {
+        font-size: 2.5em;
+    } */
+
+  .staff-intro h2 {
+    font-size: 2em;
+  }
+
+  /* #navbar li {
+    font-size: 1.5em;
+  } */
+
+  .card p {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 914px) {
+  /* h1 {
+        font-size: 3em;
+    }
+
+  .header-top p {
+    font-size: 1.5em;
+  } */
+
+  /* #navbar li {
+    font-size: 2em;
+  } */
+
+  .staffcontent-top p {
+    font-size: 1.5em;
+  }
+
+  .staff-intro h2 {
+    font-size: 2.5em;
+  }
+
+  .staff-intro p {
+    font-size: 1.5em;
+  }
+
+  .card p {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* h1 {
+        font-size: 3.5em;
+    }
+
+  .header-top p {
+    font-size: 2em;
+  } */
+
+  /* #navbar li {
+    font-size: 2.5em;
+  } */
+
+  .staffcontent-top p {
+    font-size: 2em;
+  }
+
+  .staff-intro h2 {
+    font-size: 3em;
+  }
+
+  .staff-intro p {
+    font-size: 2em;
+  }
+
+  .card p {
+    font-size: 2.5em;
+  }
+}
